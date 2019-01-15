@@ -92,6 +92,8 @@ class Question extends Component {
         ...initState,
         endQuiz: true
       })
+      if (this.props.onComplete)
+        this.props.onComplete(this.state.correct.length);
     } else {
       this.setState({
         ...initState,
@@ -242,6 +244,7 @@ class Question extends Component {
 
 Question.propTypes = {
   questions: PropTypes.array,
+  onComplete: PropTypes.func,
 };
 
 export default Question;

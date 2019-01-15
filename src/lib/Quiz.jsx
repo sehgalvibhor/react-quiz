@@ -53,7 +53,7 @@ class Quiz extends Component {
           }
 
           {
-            this.state.start && <Question questions={questions}/>
+            this.state.start && <Question questions={questions} onComplete={this.props.onComplete}/>
           }
         </div>
       );
@@ -62,7 +62,8 @@ class Quiz extends Component {
 
 Quiz.propTypes = {
   quiz: PropTypes.object,
-  shuffle: PropTypes.bool
+  shuffle: PropTypes.bool,
+  onComplete:PropTypes.func
 };
 
 export default Quiz;
