@@ -16,7 +16,7 @@
     "react-quiz",
     "react-quiz",
     "quiz",
-    "questions",
+    "questions"
   ],
   "license": "MIT",
   "peerDependencies": {
