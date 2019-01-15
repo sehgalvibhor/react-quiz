@@ -1,7 +1,7 @@
 {
-  "name": "react-quiz-component",
-  "version": "0.2.3",
-  "description": "React Quiz Component",
+  "name": "react-quiz",
+  "version": "0.1.0",
+  "description": "A quiz component built using React. This project is built on wingkwong's code, all thanks to him :)",
   "main": "lib/Quiz.js",
   "scripts": {
     "dev": "concurrently \"npm run lib:watch\" \"npm run docs\"",
@@ -13,9 +13,10 @@
   "keywords": [
     "react",
     "reactjs",
-    "react-quiz-component",
     "react-quiz",
-    "quiz"
+    "react-quiz",
+    "quiz",
+    "questions",
   ],
   "license": "MIT",
   "peerDependencies": {
@@ -40,10 +41,9 @@
     "webpack-cli": "^2.0.15",
     "webpack-dev-server": "^3.1.3"
   },
-  "author": "WONG, Wing Kam <wingkwong.code@gmail.com>",
-  "homepage": "https://github.com/wingkwong/react-quiz-component",
+  "author": "Sehgal, Vibhor <sehgalvibhor@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wingkwong/react-quiz-component.git"
+    "url": "https://github.com/sehgalvibhor/react-quiz.git"
   }
 }
