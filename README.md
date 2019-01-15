@@ -104,12 +104,23 @@ export const quiz =  {
  <Quiz quiz={quiz} shuffle={true}/>
 ```
 
+
+## onComplete Callback
+Returns number of correct responses
+```javascript
+ import { quiz } from './quiz';
+ ...
+ <Quiz quiz={quiz} shuffle={true} onComplete={(result) => console.log(result)}/>
+```
+
+
 ## Props
 
 |Name|Type|Default|Required|Description|
 |:--|:--:|:-----:|:--|:----------|
 |quiz|`object`|`null`|Y|Quiz Json Object|
 |shuffle|`boolean`|`false`|N|Shuffle the questions|
+|onComplete|`function`|`null`|N|Add a Callback|
 
 ## Development
 - Clone the project
