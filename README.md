@@ -1,21 +1,21 @@
-# react-quiz
-:orange_book: React Quiz Component 
-[![NPM version](https://img.shields.io/npm/v/react-quiz-component.svg)](https://www.npmjs.com/package/react-quiz-component) [![License](https://img.shields.io/npm/l/react-quiz-component.svg)](https://github.com/wingkwong/react-quiz-component/blob/master/LICENSE) [![Total NPM Download](https://img.shields.io/npm/dt/react-quiz-component.svg)](https://www.npmjs.com/package/react-quiz-component)
+# reactjs-quiz
+Quiz in React 
+[![License](https://img.shields.io/npm/l/react-quiz-component.svg)](https://github.com/wingkwong/react-quiz-component/blob/master/LICENSE) 
 
-react-quiz-component is a ReactJS component allowing users to attempt a quiz. 
+reactjs-quiz is a React component used for creating quizzes, It's built on top of code by Wong, Wing Kam, just customized as per my needs and probably yours too.
 
 ## Installing
 ```
-npm i react-quiz-component
+npm i reactjs-quiz
 ```
 
 ## Importing react-quiz-component
 ```
-import Quiz from 'react-quiz-component';
+import Quiz from 'reactjs-quiz';
 ```
 
 ## Defining Your Quiz Source
-The quiz source is a JSON object. You can use [react-quiz-form](https://github.com/wingkwong/react-quiz-form/) to generate it.
+The quiz source is a JSON object.
 ```javascript
 export const quiz =  {
   "quizTitle": "React Quiz Component Demo",
@@ -126,9 +126,6 @@ Returns number of correct responses
 - Clone the project
 - run `npm install`
 - run `npm run dev`
-
-## Demo
-The demo is available at https://wingkwong.github.io/react-quiz-component/
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
