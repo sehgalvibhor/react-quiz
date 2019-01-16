@@ -1,4 +1,4 @@
-# reactjs-quiz [![npm version](https://badge.fury.io/js/reactjs-quiz.svg)](https://badge.fury.io/js/reactjs-quiz)[![License](https://img.shields.io/npm/l/react-quiz-component.svg)](https://github.com/wingkwong/react-quiz-component/blob/master/LICENSE) [![Total NPM Download](https://img.shields.io/npm/dt/reactjs-quiz.svg)](https://www.npmjs.com/package/reactjs-quiz)
+# reactjs-quiz [![npm version](https://badge.fury.io/js/reactjs-quiz.svg)](https://badge.fury.io/js/reactjs-quiz) [![License](https://img.shields.io/npm/l/react-quiz-component.svg)](https://github.com/wingkwong/react-quiz-component/blob/master/LICENSE) [![Total NPM Download](https://img.shields.io/npm/dt/reactjs-quiz.svg)](https://www.npmjs.com/package/reactjs-quiz)
 
 reactjs-quiz is a React component used for creating quizzes, It's built on top of code by Wong, Wing Kam, just customized as per my needs and probably yours too.
 
