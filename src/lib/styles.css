@@ -36,9 +36,16 @@
   word-wrap:break-word;
 }
 
+
 .react-quiz-container .questionWrapper .btn.correct {
   background: green;
   color: white;
+}
+
+.react-quiz-container .questionWrapper .btn.undefined {
+  border: 1px solid #f52222;
+  color: #666666;
+  cursor: not-allowed;
 }
 
 .react-quiz-container .questionModal .alert {
